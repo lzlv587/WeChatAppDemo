@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/recommend/recommend",
+    "pages/movie/movie",
+    "pages/tv/tv",
+    "pages/search/search",
+    "pages/player/player",
+    "pages/live/live"
+  ],
+  "tabBar": {
+    "selectedColor": "#F64C47",
+    "list": [
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐",
+        "iconPath": "/images/recommend.png",
+        "selectedIconPath": "/images/recommend_select.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "/images/movie.png",
+        "selectedIconPath": "/images/movie_select.png"
+      },
+      {
+        "pagePath": "pages/tv/tv",
+        "text": "电视剧",
+        "iconPath": "/images/tv.png",
+        "selectedIconPath": "/images/tv_select.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "/images/search.png",
+        "selectedIconPath": "/images/search_select.png"
+      },
+      {
+        "pagePath":"pages/live/live",
+        "text":"直播",
+        "iconPath":"/images/recommend.png",
+        "selectedIconPath":"/images/recommend_select.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "无敌影视剧",
+    "navigationBarTextStyle": "red"
+  }
+}

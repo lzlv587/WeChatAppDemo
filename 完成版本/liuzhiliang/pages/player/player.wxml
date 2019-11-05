@@ -1,0 +1,15 @@
+<view class='play'>
+  <video class='player' src='{{playUrl}}'></video>
+  <text clas='videoname'>{{videoName}}</text>
+
+  <view class='douban'>
+    <image src='/images/douban.png'></image>
+    <text>{{douban}}</text>
+  </view>
+ <text class='info'>{{info}}</text>
+ <view class='lines'>
+  <block wx:for='{{lines}}'wx:key="">
+  <view class='lines-item' bindtap='changeLine' data-url='{{item.url}}' data-soure='{{item.soure}}'>{{item.name}}</view>
+  </block>
+ </view>
+</view>

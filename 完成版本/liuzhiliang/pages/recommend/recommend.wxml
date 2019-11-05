@@ -1,0 +1,19 @@
+<view>
+  <swiper class='swiper' indicator-dots='true' indicator-active-color='#F64C47' interval='2000' duration='1000' circular='true' autoplay='true'>
+    <block wx:for='{{images}}' wx:key=''>
+      <swiper-item>
+        <image class='item-img' src="{{item.poster}}" mode='scaleToFill' bindtap='toPlay' data-vid='{{item.vid}}'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='recom'>
+    <image src='/images/tuijian.png'></image>
+    <text>热门推荐</text>
+  </view>
+  <block wx:for="{{videos}}" wx:key="">
+    <view class='vedio-item'>
+      <image src='{{item.poster}}' mode='scaleToFill' bindtap='toPlay' data-vid='{{item.vid}}'></image>
+      <text>{{item.name}}</text>
+    </view>
+  </block>
+</view>

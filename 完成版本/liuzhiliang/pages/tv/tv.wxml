@@ -1,0 +1,9 @@
+<view class='frame'>
+  <block wx:for='{{movieList}}' wx:key=''>
+  <!-- js中的movieList在这里使用 -->
+    <view class='item'>
+      <image src='{{item.poster}}' bindtap='toPlay' data-vid='{{item.vid}}'></image>
+      <text class="text">{{item.name}}</text>
+    </view>
+  </block>
+</view>

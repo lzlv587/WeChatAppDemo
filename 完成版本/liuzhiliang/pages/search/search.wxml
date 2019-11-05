@@ -1,0 +1,19 @@
+<view class='view'>
+  <form bindsubmit='submit' class='search-form'>
+    <view class='frame'>
+      <view class='input-frame'>
+        <image src='/images/search.png' class=''></image>
+        <input placeholder='请输入视频名称' name='keyword'></input>
+      </view>
+      <button form-type='submit'>搜索</button>
+    </view>
+  </form>
+  <view class='faem'>
+    <block wx:for='{{vlist}}' wx:key=''>
+      <view  class="item">
+        <image src='{{item.poster}}' bindtap='toPlay' data-vid='{{item.vid}}' binderror='onImageError'></image>
+        <text>{{item.name}}</text>
+      </view>
+    </block>
+    </view>
+</view>

@@ -1,0 +1,39 @@
+.player{
+  width: 100%;
+  display: flex
+}
+.play {
+  width: 100%;
+  height: 100px;
+}
+.douban{
+  width:100%;
+  display: flex; 
+  margin-left: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.douban image{
+  width: 20px;
+  height: 20px;
+}
+.videoname{
+  margin-left: 5px;
+  font-weight: bold;
+}
+.info{
+ font-size: 12px;
+}
+.lines{
+  display: flex;
+  padding: 2px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top:10px; 
+}
+.lines-item{
+  margin-left: 3px;
+  border: 1px #000 solid;
+  padding: 2px;
+  
+}

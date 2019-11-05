@@ -1,0 +1,60 @@
+.search-form{
+  width: 100%;
+}
+.search-form input{
+  width: 95%;
+  height: 26px;
+  border: 1px rgb(228, 224, 224) solid;
+}
+.search-form button{
+  width: 20%;
+  height: 30px;
+  font-size: 12px;
+  border: 1px rgb(228, 224, 224) solid;
+  text-align: center;
+}
+.search-form image{
+  width: 10%;
+  height: 26px;
+}
+.frame{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+}
+.view{
+  width: 100%
+}
+.input-frame{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  border: 1px rgb(228, 224, 224) solid;
+}
+.input-frame image{
+    width: 26px;
+  height: 26px;
+
+}
+.item{
+  width: 30%;
+  margin: 15px 2px;
+}
+.item image{
+  width: 100%;
+  height: 160px;
+  vertical-align: bottom
+}
+.item text{
+  font-size: 13px; 
+  overflow: hidden
+}
+.faem{
+
+  display: flex;
+  flex-direction: row;/*横向排列*/
+  flex-wrap: wrap;/*换行*/
+  justify-content: center;
+
+}
